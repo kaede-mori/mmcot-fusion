@@ -1,0 +1,20 @@
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv
+
+# large local assets (downloaded via `mmcot-fusion download`)
+data/
+vision_features/
+models/
+experiments/
+_reference/
+
+# keep aggregated results
+!results/
+data_m3cot/
+vision_features_m3cot/
+teacher_rationales/*.log

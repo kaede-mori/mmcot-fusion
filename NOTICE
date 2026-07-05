@@ -1,0 +1,15 @@
+mmcot-fusion
+Copyright 2026 Kaede Mori
+
+This product includes software developed at:
+
+- MM-CoT (https://github.com/amazon-science/mm-cot)
+  Copyright Amazon.com, Inc. or its affiliates. Licensed under Apache-2.0.
+  The model architecture, prompt construction, dataset handling and
+  evaluation protocol are adapted from that project.
+
+- ScienceQA (https://github.com/lupantech/ScienceQA)
+  Prompt construction and evaluation utilities originate from this project.
+
+- Hugging Face Transformers (https://github.com/huggingface/transformers)
+  The multimodal T5 model subclasses and adapts T5ForConditionalGeneration.
